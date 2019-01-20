@@ -9,7 +9,7 @@
 
 
 ## The URI list to test
-$URLListFile = "C:\URLList.txt" 
+$URLListFile = "C:\Skripte\URLList.txt" 
 $URLList = Get-Content $URLListFile -ErrorAction SilentlyContinue
   $Result = @()
   
