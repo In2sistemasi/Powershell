@@ -58,5 +58,5 @@ if($result -ne $null)
     $Outputreport += "</Table></BODY></HTML>"
 }
 
-$Outputreport | out-file C:\Scripts\Test.htm
+$Outputreport | out-file C:\Skripte\Test.htm  
 Invoke-Expression C:\Skripte\Test.htm  
